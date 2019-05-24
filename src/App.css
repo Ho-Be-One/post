@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container-comment{
+  border:1px solid #e4e4e4;
+  border-radius:3px;
+  padding: 10px 10px 0 10px;
+  float: left;
+  margin: 10px
+}
+.comment{
+  width: 100%;
+  padding:0px;
+  margin: 0;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #636363;
+  float: left;
+}
+.info-comment{
+  height: 20px;
+  width: 100%;
+  float: left;
+  padding: 0 5px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  color: #6b6a6a;
+  font-style: italic;
+  background: #ffffff;
+}
+.delete:hover{
+  color: red;
+  cursor: pointer;
+}
+.text-comment{
+  width: 100%;
+  float: left;
+  padding: 10px;
+  color: #5a5959;
+  font-size: 13px;
+  background: #f1f4fa;
+  border-radius: 3px;
+}
+.legende{
+  font-size: 13px;
+  color: #5a5959;
+}
+.left{
+height: 50px;  
+width: 13%;
+}
+.right{
+  width: 87%;
+
+}
+.container-avatar{
+  float: left;
+}
+.avatar{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  border:5px solid #f1f4fa;
+  float: left;
+}
+.description{
+  background: #f3f6f8
+}
+.legende button{
+  color: #7c7c7c;
+}
+.legende button:hover{
+  color: #474747;
+}
+.container-head{
+  height: auto;
+  font-size: 14px;
+}
+.container-head-left{
+  width: 100px;
+  width: 100px;
+  position: absolute;
+}
+.container-head-left img{
+  height: 65px;
+  width: 65px;
+  border: 7px solid #ffffff;
+  background: #c03d3d;
+  border-radius: 50px;
+  left: 20px;
+  top: 5px;
+  position: relative;
+}
+.container-head-right{
+  height: auto;
+  width: 100%;
+  padding: 10px 0 10px 100px
+}
+.container-head-right .adress{
+  color: #868686;
+}
+textarea{
+  font-size: 10px;
+}
